@@ -1,0 +1,15 @@
+{
+  "name": "JFrog-Artifactory-Server",
+  "build": { "dockerfile": "Dockerfile" },
+  "features": {},
+  "runArgs": ["--memory=7gb"],
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "14gb"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
